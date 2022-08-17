@@ -6,52 +6,54 @@
 
 
 #CMD#
-#0x0750# Set_Value_Request
-#0x0003# Parameter Count
-#0x0001# Value Count
-#0x0108# Variable ID
-#0x0000# Disable Preprocessing
+#0x0750#
+#0x0003#
+#0x0001#
+#0x0108#
+#0x0000#
 
 
 #CMD#
-#0x0760# Clear_Display_Request
-#0x0000# Parameter Count
+#0x0760#
+#0x0000#
 
 
 #CMD#
-#0x030E# Control_Parameterization_Request
-#0x0001# Parameter Count
-#0x0001# Start
+#0x030E#
+#0x0001#
+#0x0001#
 
 
 #CMD#
-#0x0306# Initiate_Load_Configuration_Request
-#0x0004# Parameter Count
-#0x0001# Mode: Loading new configuration
-#0x0001# Frame reference
-#0x0003# Device count //Original #0x0007#
-#0x0000# Extension length
+#0x0306#
+#0x0004#
+#0x0001#
+#0x0001#
+#0x0007#
+#0x0000#
 
 
 #CMD#
-#0x0307# Load_Configuration_Request
-#0x000F# Parameter Count //Original #0x0026#
-#0x001B# Used attributes //Original #0x003B#
-#0x0001# Start entry number
-#0x0003# Device count // Original #0x0007#
-#0x0100# Logical device number
-#0x0008# Length code | Ident code
-#0x0000# Device level
-#0xFFFF# Group number | Alternative // Original (Linea Extra Bajo esta) #0x0000#
-#0x0200# Logical device number
-#0x032F# Length code | Ident code
-#0x0000# Device level
-#0xFFFF# Group number | Alternative // Original (Linea Extra Bajo esta) #0x0000#
-#0x0300# Logical device number
-#0x042F# Length code | Ident code
-#0x0000# Device level
-#0xFFFF# Group number | Alternative
-#0x0000# // Todo bajo esto sobra
+#0x0307#
+#0x0026#
+#0x003B#
+#0x0001#
+#0x0007#
+#0x0100#
+#0x0008#
+#0x0000#
+#0xFFFF#
+#0x0000#
+#0x0200#
+#0x032F#
+#0x0000#
+#0xFFFF#
+#0x0000#
+#0x0300#
+#0x042F#
+#0x0000#
+#0xFFFF#
+#0x0000#
 #0x0400#
 #0x0004#
 #0x0000#
@@ -75,20 +77,13 @@
 
 
 #CMD#
-#0x0308# Terminate_Load_Configuration_Request
-#0x0001# Parameter Count
-#0x0002# Automatic PCP channel configuration
-
-#CMD# // Todo este bloque en el Original no estaba
-#0x0157# Switch_Var_ID_Access_Request
-#0x0003# Parameter Count
-#0x4942# Password
-#0x535F# ..
-#0x0001# Enable
+#0x0308#
+#0x0001#
+#0x0002#
 
 
 #CMD#
-#0x0750# Set_Value_Request
+#0x0750#
 #0x0010#
 #0x0005#
 #0x2211#

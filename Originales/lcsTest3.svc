@@ -1,0 +1,297 @@
+
+
+#CMD#
+#0x1303# Alarm_Stop_Request
+#0x0000# Parameter Count
+
+
+#CMD#
+#0x0750# Set_Value_Request
+#0x0003# Parameter Count
+#0x0001# Value Count
+#0x0108# Variable ID
+#0x0000# Disable Preprocessing
+
+
+#CMD#
+#0x0760# Clear_Display_Request
+#0x0000# Parameter Count
+
+
+#CMD#
+#0x030E# Control_Parameterization_Request
+#0x0001# Parameter Count
+#0x0001# Start
+
+
+#CMD#
+#0x0306# Initiate_Load_Configuration_Request
+#0x0004# Parameter Count
+#0x0001# Mode: Loading new configuration
+#0x0001# Frame reference
+#0x0003# Device count
+#0x0000# Extension length
+
+
+#CMD#
+#0x0307# Load_Configuration_Request
+#0x000F# Parameter Count
+#0x001B# Used attributes
+#0x0001# Start entry number
+#0x0003# Device count
+#0x0100# Logical device number
+#0x0008# Length code | Ident code
+#0x0000# Device level
+#0xFFFF# Group number | Alternative
+#0x0200# Logical device number
+#0x032F# Length code | Ident code
+#0x0000# Device level
+#0xFFFF# Group number | Alternative
+#0x0300# Logical device number
+#0x042F# Length code | Ident code
+#0x0000# Device level
+#0xFFFF# Group number | Alternative
+
+
+#CMD#
+#0x0308# Terminate_Load_Configuration_Request
+#0x0001# Parameter Count
+#0x0002# Automatic PCP channel configuration
+
+
+#CMD#
+#0x0157# Switch_Var_ID_Access_Request
+#0x0003# Parameter Count
+#0x4942# Password
+#0x535F# ..
+#0x0001# Enable
+
+
+#CMD#
+#0x0750# Set_Value_Request
+#0x001C# Parameter Count
+#0x0009# Value Count
+#0x2210# Variable ID
+#0x0000# Duración de ciclo por defecto (0 µs = marcha libre)
+#0x0FA0# ..
+#0x1210# Variable ID
+#0x0000# Retardo de arranque (0 ms = desactivado)
+#0x0000# ..
+#0x2212# Variable ID
+#0x0002# Tiempo de aviso del bus (0 µs = desactivado)
+#0xBF20# ..
+#0x2215# Variable ID
+#0x0000# Mensaje de error Tiempo de aviso del bus excedido (0BD2)
+#0x0000# ..
+#0x2211# Variable ID
+#0x0003# Timeout del bus (0 µs = automático)
+#0x0D40# ..
+#0x2204# Variable ID
+#0x0000# Tratamiento de los datos de entrada en caso de error de bus
+#0x0000# ..
+#0x221B# Variable ID
+#0x0000# Comportamiento en caso de SYSFAIL
+#0x0000# ..
+#0x2200# Variable ID
+#0x0600# Modo operativo
+#0x0000# ..
+#0xA255# Variable ID
+#0x0000# Diagnóstico de canal individual
+#0x047C# ..
+
+
+#CMD#
+#0x0157# Switch_Var_ID_Access_Request
+#0x0003# Parameter Count
+#0x4942# Password
+#0x535F# ..
+#0x0000# Disable
+
+
+#CMD#
+#0x0320# Initiate_Put_Process_Data_Description_List_Request
+#0x0000# Parameter Count
+
+
+#CMD#
+#0x0321# Put_Process_Data_Description_List_Request
+#0x003E# Parameter Count
+#0x0200# Remote bus number | Local bus number
+#0x000C# Number of used signals
+#0x6013# PDD-Index
+#0x0C0A# Direction | Datatype
+#0x0000# Byteposition
+#0x0001# Bitposition | Datalength
+#0x00FF# Extension
+#0x6012# PDD-Index
+#0x0C0A# Direction | Datatype
+#0x0001# Byteposition
+#0x0001# Bitposition | Datalength
+#0x00FF# Extension
+#0x6015# PDD-Index
+#0x0C0A# Direction | Datatype
+#0x0002# Byteposition
+#0x0001# Bitposition | Datalength
+#0x00FF# Extension
+#0x6014# PDD-Index
+#0x0C0A# Direction | Datatype
+#0x0003# Byteposition
+#0x0001# Bitposition | Datalength
+#0x00FF# Extension
+#0x6017# PDD-Index
+#0x0C0A# Direction | Datatype
+#0x0004# Byteposition
+#0x0001# Bitposition | Datalength
+#0x00FF# Extension
+#0x6016# PDD-Index
+#0x0C0A# Direction | Datatype
+#0x0005# Byteposition
+#0x0001# Bitposition | Datalength
+#0x00FF# Extension
+#0x6019# PDD-Index
+#0x0D0A# Direction | Datatype
+#0x0000# Byteposition
+#0x0001# Bitposition | Datalength
+#0x00FF# Extension
+#0x6018# PDD-Index
+#0x0D0A# Direction | Datatype
+#0x0001# Byteposition
+#0x0001# Bitposition | Datalength
+#0x00FF# Extension
+#0x601B# PDD-Index
+#0x0D0A# Direction | Datatype
+#0x0002# Byteposition
+#0x0001# Bitposition | Datalength
+#0x00FF# Extension
+#0x601A# PDD-Index
+#0x0D0A# Direction | Datatype
+#0x0003# Byteposition
+#0x0001# Bitposition | Datalength
+#0x00FF# Extension
+#0x601D# PDD-Index
+#0x0D0A# Direction | Datatype
+#0x0004# Byteposition
+#0x0001# Bitposition | Datalength
+#0x00FF# Extension
+#0x601C# PDD-Index
+#0x0D0A# Direction | Datatype
+#0x0005# Byteposition
+#0x0001# Bitposition | Datalength
+#0x00FF# Extension
+
+
+#CMD#
+#0x0322# Terminate_Put_Process_Data_Description_List_Request
+#0x0000# Parameter Count
+
+
+#CMD#
+#0x0324# Initiate_Load_Process_Data_Reference_List_Request
+#0x0001# Parameter Count
+#0x0001# New PDRL
+
+
+#CMD#
+#0x0325# Load_Process_Data_Reference_List_Request
+#0x0049# Parameter Count
+#0x000C# Number of used connections
+#0x0001# PDRL-Index
+#0x0200# Remote bus number | Local bus number
+#0x6013# PDD-Index
+#0x1001# Destination address (Byte)
+#0x0002# Destination address (Bit) | Consistency
+#0x00FF# Extension
+#0x0002# PDRL-Index
+#0x0200# Remote bus number | Local bus number
+#0x6012# PDD-Index
+#0x1000# Destination address (Byte)
+#0x0002# Destination address (Bit) | Consistency
+#0x00FF# Extension
+#0x0003# PDRL-Index
+#0x0200# Remote bus number | Local bus number
+#0x6015# PDD-Index
+#0x1003# Destination address (Byte)
+#0x0002# Destination address (Bit) | Consistency
+#0x00FF# Extension
+#0x0004# PDRL-Index
+#0x0200# Remote bus number | Local bus number
+#0x6014# PDD-Index
+#0x1002# Destination address (Byte)
+#0x0002# Destination address (Bit) | Consistency
+#0x00FF# Extension
+#0x0005# PDRL-Index
+#0x0200# Remote bus number | Local bus number
+#0x6017# PDD-Index
+#0x1005# Destination address (Byte)
+#0x0002# Destination address (Bit) | Consistency
+#0x00FF# Extension
+#0x0006# PDRL-Index
+#0x0200# Remote bus number | Local bus number
+#0x6016# PDD-Index
+#0x1004# Destination address (Byte)
+#0x0002# Destination address (Bit) | Consistency
+#0x00FF# Extension
+#0x4001# PDRL-Index
+#0x0001# Source address (Byte)
+#0x0002# Source address (Bit) | Consistency
+#0x0200# Remote bus number | Local bus number
+#0x6019# PDD-Index
+#0x00FF# Extension
+#0x4002# PDRL-Index
+#0x0000# Source address (Byte)
+#0x0002# Source address (Bit) | Consistency
+#0x0200# Remote bus number | Local bus number
+#0x6018# PDD-Index
+#0x00FF# Extension
+#0x4003# PDRL-Index
+#0x0003# Source address (Byte)
+#0x0002# Source address (Bit) | Consistency
+#0x0200# Remote bus number | Local bus number
+#0x601B# PDD-Index
+#0x00FF# Extension
+#0x4004# PDRL-Index
+#0x0002# Source address (Byte)
+#0x0002# Source address (Bit) | Consistency
+#0x0200# Remote bus number | Local bus number
+#0x601A# PDD-Index
+#0x00FF# Extension
+#0x4005# PDRL-Index
+#0x0005# Source address (Byte)
+#0x0002# Source address (Bit) | Consistency
+#0x0200# Remote bus number | Local bus number
+#0x601D# PDD-Index
+#0x00FF# Extension
+#0x4006# PDRL-Index
+#0x0004# Source address (Byte)
+#0x0002# Source address (Bit) | Consistency
+#0x0200# Remote bus number | Local bus number
+#0x601C# PDD-Index
+#0x00FF# Extension
+
+
+#CMD#
+#0x0326# Terminate_Load_Process_Data_Reference_List_Request
+#0x0000# Parameter Count
+
+
+#CMD#
+#0x030E# Control_Parameterization_Request
+#0x0001# Parameter Count
+#0x0000# Stop
+
+
+#CMD#
+#0x0711# Activate_Configuration_Request
+#0x0001# Parameter Count
+#0x0001# Frame Reference
+
+
+#CMD#
+#0x0701# Start_Data_Transfer-Request
+#0x0000# Parameter Count
+
+
+#CMD#
+#0x014F# Change_Exclusive_Rights_Request
+#0x0001# Parameter Count
+#0x0000# Release rights

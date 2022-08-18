@@ -72,19 +72,19 @@
 #0x001C# Parameter Count
 #0x0009# Value Count
 #0x2210# Variable ID
-#0x0000# Duración de ciclo por defecto (0 µs = marcha libre)
+#0x0000# Duraciï¿½n de ciclo por defecto (0 ï¿½s = marcha libre)
 #0x0FA0# ..
 #0x1210# Variable ID
 #0x0000# Retardo de arranque (0 ms = desactivado)
 #0x0000# ..
 #0x2212# Variable ID
-#0x0002# Tiempo de aviso del bus (0 µs = desactivado)
+#0x0002# Tiempo de aviso del bus (0 ï¿½s = desactivado)
 #0xBF20# ..
 #0x2215# Variable ID
 #0x0000# Mensaje de error Tiempo de aviso del bus excedido (0BD2)
 #0x0000# ..
 #0x2211# Variable ID
-#0x0003# Timeout del bus (0 µs = automático)
+#0x0003# Timeout del bus (0 ï¿½s = automï¿½tico)
 #0x0D40# ..
 #0x2204# Variable ID
 #0x0000# Tratamiento de los datos de entrada en caso de error de bus
@@ -96,7 +96,7 @@
 #0x0600# Modo operativo
 #0x0000# ..
 #0xA255# Variable ID
-#0x0000# Diagnóstico de canal individual
+#0x0000# Diagnï¿½stico de canal individual
 #0x047C# ..
 
 

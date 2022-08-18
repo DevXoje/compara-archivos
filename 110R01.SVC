@@ -42,7 +42,7 @@
 #0x0100# Logical device number
 #0x0008# Length code | Ident code
 #0x0000# Device level
-#0xFFFF# Group number | Alternative // Original (Linea Extra Bajo esta) #0x0000#
+#0xFFFF# Group number | Alternative //Original En lcstest No aparece -> #0x0000#
 #0x0200# Logical device number
 #0x032F# Length code | Ident code
 #0x0000# Device level
@@ -59,7 +59,7 @@
 #0x0002# Automatic PCP channel configuration
 
 
-#CMD# // Todo este bloque en el Original no estaba
+#CMD# // New
 #0x0157# Switch_Var_ID_Access_Request
 #0x0003# Parameter Count
 #0x4942# Password
@@ -160,12 +160,12 @@
 #0x00FF# Extension //Original #0x0000#
 
 
-#CMD#// Todo este bloque en el Original no estaba
+#CMD#// New
 #0x0322# Terminate_Put_Process_Data_Description_List_Request
 #0x0000# Parameter Count
 
 
-#CMD#// Todo este bloque en el Original no estaba
+#CMD#// New
 #0x0324# Initiate_Load_Process_Data_Reference_List_Request
 #0x0001# Parameter Count
 #0x0001# New PDRL
